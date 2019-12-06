@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ExtractInterfaceTool",
+            "request": "launch",
+            "mainClass": "ExtractInterfaceTool"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ExprJoyRide",
+            "request": "launch",
+            "mainClass": "ExprJoyRide"
+        }
+    ]
+}

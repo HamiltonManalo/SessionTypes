@@ -1,0 +1,3 @@
+type StateName = 
+	  "add"
+	| "displayValue"

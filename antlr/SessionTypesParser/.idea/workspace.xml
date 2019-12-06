@@ -1,0 +1,869 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1b284a11-59bc-4452-9fdc-bfc87a2ae208" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/channels.tc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uk/ac/brunel/sessiontypes/Sessions.g4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uk/ac/brunel/sessiontypes/parsing/DataClasses.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uk/ac/brunel/sessiontypes/parsing/Entry.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uk/ac/brunel/sessiontypes/parsing/FileGenerator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/sessiontypes/VisitorTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proj1/ts/compiled/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proj1/ts/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proj1/ts/index_v1.5.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proj1/ts/index_v2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proj1/ts/stateMachine.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proj1/ts/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proj1/ts/worker-v1.5.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proj1/ts/worker-v2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proj1/ts/worker.ts" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/uk/ac/brunel/sessiontypes/sessions.g4">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="320">
+                  <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/uk/ac/brunel/sessiontypes/parsing/DataClasses.kt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="192">
+                  <caret line="12" selection-start-line="12" selection-end-line="12" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/uk/ac/brunel/sessiontypes/parsing/FileGenerator.kt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1552">
+                  <caret line="103" column="33" selection-start-line="103" selection-start-column="33" selection-end-line="103" selection-end-column="33" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/channels.tc">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="16">
+                  <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/uk/ac/brunel/sessiontypes/parsing/Entry.kt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="528">
+                  <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gen/uk/ac/brunel/sessiontypes/sessionsParser.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2848">
+                  <caret line="207" selection-start-line="207" selection-end-line="207" />
+                  <folding>
+                    <element signature="e#5916#5917#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/output.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="240">
+                  <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Arquillian JUnit Test Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>protocol</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/uk/ac/brunel/sessiontypes/grammar.g4" />
+        <option value="$PROJECT_DIR$/src/uk/ac/brunel/sessiontypes/Sessions.g4" />
+        <option value="$PROJECT_DIR$/src/tests/uk/ac/brunel/sessiontypes/VisitorTest.kt" />
+        <option value="$PROJECT_DIR$/src/uk/ac/brunel/sessiontypes/parsing/entry.kt" />
+        <option value="$PROJECT_DIR$/tests/sessiontypes/VisitorTest.kt" />
+        <option value="$PROJECT_DIR$/src/uk/ac/brunel/sessiontypes/parsing/Entry.kt" />
+        <option value="$PROJECT_DIR$/src/uk/ac/brunel/sessiontypes/sessions.g4" />
+        <option value="$PROJECT_DIR$/output.ts" />
+        <option value="$PROJECT_DIR$/src/uk/ac/brunel/sessiontypes/parsing/FileGenerator.kt" />
+        <option value="$PROJECT_DIR$/src/uk/ac/brunel/sessiontypes/parsing/DataClasses.kt" />
+        <option value="$PROJECT_DIR$/channels.tc" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="800" />
+    <option name="height" value="454" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SessionTypesParser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SessionTypesParser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SessionTypesParser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SessionTypesParser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SessionTypesParser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SessionTypesParser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sessiontypes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SessionTypesParser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SessionTypesParser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sessiontypes" type="462c0819:PsiDirectoryNode" />
+              <item name="parsing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SessionTypesParser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SessionTypesParser" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SessionTypesParser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SessionTypesParser" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="sessiontypes" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="$PROJECT_DIR$/src/uk/ac/brunel/sessiontypes/Sessions.g4::/auto-gen" value="true" />
+    <property name="$PROJECT_DIR$/src/uk/ac/brunel/sessiontypes/Sessions.g4::/encoding" value="en_us" />
+    <property name="$PROJECT_DIR$/src/uk/ac/brunel/sessiontypes/Sessions.g4::/gen-listener" value="true" />
+    <property name="$PROJECT_DIR$/src/uk/ac/brunel/sessiontypes/Sessions.g4::/gen-visitor" value="true" />
+    <property name="$PROJECT_DIR$/src/uk/ac/brunel/sessiontypes/Sessions.g4::/language" value="Java" />
+    <property name="$PROJECT_DIR$/src/uk/ac/brunel/sessiontypes/Sessions.g4::/output-dir" value="D:\coding projects\SessionTypes\antlr\SessionTypesParser\src\uk\ac\brunel\sessiontypes\builtgrammar" />
+    <property name="$PROJECT_DIR$/src/uk/ac/brunel/sessiontypes/grammar.g4::/auto-gen" value="true" />
+    <property name="$PROJECT_DIR$/src/uk/ac/brunel/sessiontypes/grammar.g4::/gen-listener" value="true" />
+    <property name="$PROJECT_DIR$/src/uk/ac/brunel/sessiontypes/grammar.g4::/gen-visitor" value="true" />
+    <property name="$PROJECT_DIR$/src/uk/ac/brunel/sessiontypes/grammar.g4::/language" value="Java" />
+    <property name="$PROJECT_DIR$/src/uk/ac/brunel/sessiontypes/grammar.g4::/output-dir" value="D:\coding projects\SessionTypes\antlr\SessionTypesParser\src\uk\ac\brunel\sessiontypes\builtgrammar" />
+    <property name="$PROJECT_DIR$/src/uk/ac/brunel/sessiontypes/grammar.g4::/package" value="Parser.Tools" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575051681157" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/tests/uk/ac/brunel/sessiontypes" />
+    <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="ts.external.directory.path" value="D:\Program Files\JetBrains\IntelliJ IDEA 2018.2.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="tests.uk.ac.brunel.sessiontypes" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\coding projects\SessionTypes\antlr\SessionTypesParser\tests" />
+      <recent name="D:\coding projects\SessionTypes\antlr\SessionTypesParser\" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Kotlin.uk.ac.brunel.sessiontypes.parsing.EntryKt">
+    <configuration name="VisitorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SessionTypesParser" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.uk.ac.brunel.sessiontypes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sessiontypes" />
+      <option name="MAIN_CLASS_NAME" value="tests.uk.ac.brunel.sessiontypes.VisitorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="uk.ac.brunel.sessiontypes.parsing.EntryKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="SessionTypesParser" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="channels.tc" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="uk.ac.brunel.sessiontypes.parsing.EntryKt" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SessionTypesParser" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.uk.ac.brunel.sessiontypes.parsing.EntryKt" />
+        <item itemvalue="JUnit.VisitorTest" />
+        <item itemvalue="TestNG.&lt;default&gt;" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1b284a11-59bc-4452-9fdc-bfc87a2ae208" name="Default Changelist" comment="" />
+      <created>1574371199759</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574371199759</updated>
+      <workItem from="1574371201354" duration="2879000" />
+      <workItem from="1574378988023" duration="5874000" />
+      <workItem from="1574528140695" duration="5346000" />
+      <workItem from="1574540357696" duration="5624000" />
+      <workItem from="1574546092630" duration="5152000" />
+      <workItem from="1574612346536" duration="6737000" />
+      <workItem from="1574717690618" duration="7308000" />
+      <workItem from="1574944118457" duration="1287000" />
+      <workItem from="1574957426046" duration="24407000" />
+      <workItem from="1575330638674" duration="9000" />
+      <workItem from="1575484427598" duration="599000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="VisitorTest - 2019.11.28 at 23h 43m 03s.xml">
+      <configuration name="VisitorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VisitorTest - 2019.11.28 at 23h 44m 23s.xml">
+      <configuration name="VisitorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VisitorTest - 2019.11.28 at 23h 49m 23s.xml">
+      <configuration name="VisitorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VisitorTest - 2019.11.28 at 23h 50m 54s.xml">
+      <configuration name="VisitorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VisitorTest - 2019.11.28 at 23h 51m 06s.xml">
+      <configuration name="VisitorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VisitorTest - 2019.11.28 at 23h 51m 55s.xml">
+      <configuration name="VisitorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VisitorTest - 2019.11.28 at 23h 52m 44s.xml">
+      <configuration name="VisitorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VisitorTest - 2019.11.28 at 23h 53m 13s.xml">
+      <configuration name="VisitorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VisitorTest - 2019.11.28 at 23h 53m 25s.xml">
+      <configuration name="VisitorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VisitorTest - 2019.11.29 at 00h 15m 02s.xml">
+      <configuration name="VisitorTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="65222000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2707889" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Learn" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4073673" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Tool Output" order="9" weight="0.32936078" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50035536" side_tool="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="ANTLR Preview" order="13" sideWeight="0.49964464" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32827735" />
+      <window_info anchor="bottom" id="TypeScript" order="15" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.32995737" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="8" side_tool="true" weight="0.19402985" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2707889" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Learn" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.4075067" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Tool Output" order="10" weight="0.32936078" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50035536" side_tool="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="ANTLR Preview" order="14" sideWeight="0.49964464" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.32827735" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="0" side_tool="true" weight="0.19402985" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.32995737" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/uk/ac/brunel/sessiontypes/parsing/FileGenerator.kt</url>
+          <line>65</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/uk/ac/brunel/sessiontypes/parsing/Entry.kt</url>
+          <line>46</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/output.ts</url>
+          <line>16</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JetRunConfigurationType">
+        <watch expression="states.flatMap {it.transistions}.joinToString(&quot;, &quot;)" language="kotlin" />
+        <watch expression="messageTypes.memberProperties.map { it. }" language="kotlin" custom="import kotlin.reflect.jvm.internal.ReflectProperties.LazyVal&#10;import kotlin.jvm.internal.Lambda&#10;import kotlin.reflect.jvm.internal.KClassImpl" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>messageTypes.memberProperties.map { it. }</expression-string>
+        <language-id>kotlin</language-id>
+        <custom-info>import kotlin.reflect.jvm.internal.ReflectProperties.LazyVal
+import kotlin.jvm.internal.Lambda
+import kotlin.reflect.jvm.internal.KClassImpl</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>messageTypes.memberProperties.map { it.get() }</expression-string>
+        <language-id>kotlin</language-id>
+        <custom-info>import kotlin.reflect.jvm.internal.ReflectProperties.LazyVal
+import kotlin.jvm.internal.Lambda
+import kotlin.reflect.jvm.internal.KClassImpl</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>messageTypes.memberProperties.map { it.name }</expression-string>
+        <language-id>kotlin</language-id>
+        <custom-info>import kotlin.reflect.jvm.internal.ReflectProperties.LazyVal
+import kotlin.jvm.internal.Lambda
+import kotlin.reflect.jvm.internal.KClassImpl</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>messageTypes.memberProperties</expression-string>
+        <language-id>kotlin</language-id>
+        <custom-info>import kotlin.reflect.jvm.internal.ReflectProperties.LazyVal
+import kotlin.jvm.internal.Lambda
+import kotlin.reflect.jvm.internal.KClassImpl</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>messageTypes.typeParameters</expression-string>
+        <language-id>kotlin</language-id>
+        <custom-info>import kotlin.reflect.jvm.internal.ReflectProperties.LazyVal
+import kotlin.jvm.internal.Lambda
+import kotlin.reflect.jvm.internal.KClassImpl</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>messageTypes.constructors.first().parameters.first()</expression-string>
+        <language-id>kotlin</language-id>
+        <custom-info>import kotlin.reflect.jvm.internal.ReflectProperties.LazyVal
+import kotlin.jvm.internal.Lambda
+import kotlin.reflect.jvm.internal.KClassImpl</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>messageTypes.constructors.first().parameters</expression-string>
+        <language-id>kotlin</language-id>
+        <custom-info>import kotlin.reflect.jvm.internal.ReflectProperties.LazyVal
+import kotlin.jvm.internal.Lambda
+import kotlin.reflect.jvm.internal.KClassImpl</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>messageTypes.constructors.first().name</expression-string>
+        <language-id>kotlin</language-id>
+        <custom-info>import kotlin.reflect.jvm.internal.ReflectProperties.LazyVal
+import kotlin.jvm.internal.Lambda
+import kotlin.reflect.jvm.internal.KClassImpl</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>messageTypes.constructors.first()</expression-string>
+        <language-id>kotlin</language-id>
+        <custom-info>import kotlin.reflect.jvm.internal.ReflectProperties.LazyVal
+import kotlin.jvm.internal.Lambda
+import kotlin.reflect.jvm.internal.KClassImpl</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>messageTypes.constructors</expression-string>
+        <language-id>kotlin</language-id>
+        <custom-info>import kotlin.reflect.jvm.internal.ReflectProperties.LazyVal
+import kotlin.jvm.internal.Lambda
+import kotlin.reflect.jvm.internal.KClassImpl</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/gen/uk/ac/brunel/sessiontypes/sessions.interp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/uk/ac/brunel/sessiontypes/sessionsListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Javalib/antlr-4.7.2-complete.jar!/org/antlr/runtime/TokenSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Javalib/antlr-4.7.2-complete.jar!/org/antlr/runtime/CommonTokenStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Javalib/antlr-4.7.2-complete.jar!/org/antlr/v4/runtime/atn/LexerATNSimulator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/uk/ac/brunel/sessiontypes/sessionsLexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="87" column="31" selection-start-line="87" selection-start-column="31" selection-end-line="87" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Javalib/antlr-4.7.2-complete.jar!/org/antlr/runtime/ANTLRStringStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Javalib/antlr-4.7.2-complete.jar!/org/antlr/runtime/ANTLRReaderStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="10" column="50" lean-forward="true" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Javalib/antlr-4.7.2-complete.jar!/org/antlr/runtime/ANTLRInputStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/uk/ac/brunel/sessiontypes/sessionsVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/uk/ac/brunel/sessiontypes/sessionsBaseListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Javalib/antlr-4.7.2-complete.jar!/org/antlr/v4/runtime/ANTLRInputStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="168" selection-start-line="168" selection-end-line="168" />
+          <folding>
+            <element signature="e#3536#3537#0" expanded="true" />
+            <element signature="e#3565#3566#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Javalib/antlr-4.7.2-complete.jar!/org/antlr/v4/runtime/misc/Interval.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Javalib/antlr-4.7.2-complete.jar!/org/antlr/v4/runtime/CommonToken.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+          <folding>
+            <element signature="e#3810#3811#0" expanded="true" />
+            <element signature="e#3858#3859#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Javalib/antlr-4.7.2-complete.jar!/org/antlr/v4/runtime/RuleContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Javalib/antlr-4.7.2-complete.jar!/org/antlr/v4/runtime/tree/ParseTree.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Javalib/antlr-4.7.2-complete.jar!/org/antlr/v4/runtime/tree/ParseTreeVisitor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Javalib/antlr-4.7.2-complete.jar!/org/antlr/v4/runtime/tree/TerminalNodeImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="e#1279#1280#0" expanded="true" />
+            <element signature="e#1310#1311#0" expanded="true" />
+            <element signature="e#1354#1355#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/uk/ac/brunel/sessiontypes/sessionsBaseVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="33" column="80" selection-start-line="33" selection-start-column="80" selection-end-line="33" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Javalib/antlr-4.7.2-complete.jar!/org/antlr/v4/runtime/tree/AbstractParseTreeVisitor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+          <folding>
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Javalib/antlr-4.7.2-complete.jar!/org/antlr/v4/runtime/ParserRuleContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/sessiontypes/VisitorTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+          <folding>
+            <element signature="e#41#298#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.output.ts" />
+    <entry file="file://$PROJECT_DIR$/src/uk/ac/brunel/sessiontypes/sessions.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uk/ac/brunel/sessiontypes/parsing/DataClasses.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uk/ac/brunel/sessiontypes/parsing/FileGenerator.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1552">
+          <caret line="103" column="33" selection-start-line="103" selection-start-column="33" selection-end-line="103" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uk/ac/brunel/sessiontypes/parsing/Entry.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/uk/ac/brunel/sessiontypes/sessionsParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2848">
+          <caret line="207" selection-start-line="207" selection-end-line="207" />
+          <folding>
+            <element signature="e#5916#5917#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/channels.tc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SessionTypesParser</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>antlr-4.7.2-complete</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
