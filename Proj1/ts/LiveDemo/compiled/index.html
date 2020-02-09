@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+    <div style='display:flex; flex-direction: column;'>
+        <div style='flex-direction: row;'>
+            <h1 style='justify-self: center; display: block;'>Art to ASCII</h1>
+        </div>
+        <div style="flex-direction: row;">
+            <input type="file" name="picture" accept='image/*' />
+        </div>
+    <div id="output" style='flex-direction: row; justify-self: center; margin: auto;'>
+        test
+       
+        <canvas id="preview" style="display: none;"></canvas>
+        <pre id="ascii" style=' font-family: "Courier New", "monospace"; margin: 1rem auto; font-size: 8px; line-height: 1;'></pre>
+    </div>
+    </div>
+</body>
+<script type='module' src='./client/AsciiConverter.js'></script>
+<script type='module' src='./client/CSFM.js'></script>
+<script type='module' src='./client/Configuration.js'></script>
+<script type='module' src='./client/Execution.js'></script>
+<script type='module' src='./client/AsciiWorkerFile.js'></script>
+</html>

@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        //this config for target "es5"
+        "lib": ["es5", "es6", "WebWorker", "WebWorker.ImportScripts"],
+        //uncomment this for target "es6"
+        // "lib": ["webworker", "es6", "scripthost"],
+        "outDir": "../compiled"
+    },
+    "include": [
+        "./*"
+    ]
+}

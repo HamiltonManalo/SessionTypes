@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        //this config for target "es5"
+        "lib": ["es5", "es6", "dom"],
+        //uncomment this for target "es6"
+        "outDir": "../compiled",
+    },
+    "exclude": [
+        "./compiled",
+        "**/worker/worker.ts",
+        "./worker/*"
+    ]
+}
